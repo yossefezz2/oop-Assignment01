@@ -95,24 +95,24 @@ internal class Program
 
         #region task 6
 
-        Person[] persons = new Person[4];
-        persons[0] = new Person("Youssef", 22);
-        persons[1] = new Person("Ahmed", 25);
-        persons[2] = new Person("Mazen", 21);
-        persons[3] = new Person("Mona", 24);
+        //Person[] persons = new Person[4];
+        //persons[0] = new Person("Youssef", 22);
+        //persons[1] = new Person("Ahmed", 25);
+        //persons[2] = new Person("Mazen", 21);
+        //persons[3] = new Person("Mona", 24);
 
-        int maxAge = persons[0].age;
-        string oldestPersonName = persons[0].name;
+        //int maxAge = persons[0].age;
+        //string oldestPersonName = persons[0].name;
 
-        foreach (var item in persons)
-        {
-            if (item.age > maxAge)
-            {
-                maxAge = item.age;
-                oldestPersonName = item.name;
-            }
-        }
-        Console.WriteLine($"The oldest person is: {oldestPersonName} with age {maxAge}");
+        //foreach (var item in persons)
+        //{
+        //    if (item.age > maxAge)
+        //    {
+        //        maxAge = item.age;
+        //        oldestPersonName = item.name;
+        //    }
+        //}
+        //Console.WriteLine($"The oldest person is: {oldestPersonName} with age {maxAge}");
         #endregion
 
 
